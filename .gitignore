@@ -1,11 +1,11 @@
-/.zig-cache/
-/zig-out/
-/answers/
-/patches/healed/
-/output/
-.progress.txt
+**/.zig-cache/
+**/zig-out/
 
 # Leave this in here for older zig versions
-/zig-cache/
+**/zig-cache/
 
+# Ignore compiled binary named `main`
 **/main
+
+# Ignore object files
+**/*.o
