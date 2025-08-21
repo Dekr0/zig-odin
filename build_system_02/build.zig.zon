@@ -1,0 +1,11 @@
+.{
+    .name = .wwise_teller,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.14.1",
+    .fingerprint = 0x2894ca8682330bd,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src"
+    }
+}
